@@ -1,0 +1,57 @@
+[go-stress] rpc=msgpack+unix:///tmp/dag_rpc.sock method=miner_mineRangeSigned sign=true sig_scheme=ed25519 workers=1 batch_size=200000000 soak_tps=10000000000 duration=5m0s
+[go-stress] mineRange opts: mode=direct root_mode=range assume_new=true chain_id=1337
+[worker 0] blocks=60 txs=12000000000 elapsed=6.849578s last=0.122170s
+[worker 0] blocks=120 txs=24000000000 elapsed=13.654922s last=0.122567s
+[worker 0] blocks=180 txs=36000000000 elapsed=20.494919s last=0.123444s
+[worker 0] blocks=240 txs=48000000000 elapsed=27.347300s last=0.125088s
+[worker 0] blocks=300 txs=60000000000 elapsed=34.178496s last=0.123200s
+[worker 0] blocks=360 txs=72000000000 elapsed=41.074954s last=0.125318s
+[worker 0] blocks=420 txs=84000000000 elapsed=47.874910s last=0.122340s
+[worker 0] blocks=480 txs=96000000000 elapsed=54.683837s last=0.122983s
+[worker 0] blocks=540 txs=108000000000 elapsed=61.461785s last=0.124822s
+[worker 0] blocks=600 txs=120000000000 elapsed=68.242584s last=0.123343s
+[worker 0] blocks=660 txs=132000000000 elapsed=75.109215s last=0.122944s
+[worker 0] blocks=720 txs=144000000000 elapsed=81.856465s last=0.125468s
+[worker 0] blocks=780 txs=156000000000 elapsed=88.687346s last=0.123029s
+[worker 0] blocks=840 txs=168000000000 elapsed=95.471893s last=0.121137s
+[worker 0] blocks=900 txs=180000000000 elapsed=102.291948s last=0.123365s
+[worker 0] blocks=960 txs=192000000000 elapsed=109.059840s last=0.125056s
+[worker 0] blocks=1020 txs=204000000000 elapsed=115.936356s last=0.123134s
+[worker 0] blocks=1080 txs=216000000000 elapsed=122.652627s last=0.120458s
+[worker 0] blocks=1140 txs=228000000000 elapsed=129.531564s last=0.129160s
+[worker 0] blocks=1200 txs=240000000000 elapsed=136.334282s last=0.119132s
+[worker 0] blocks=1260 txs=252000000000 elapsed=143.094229s last=0.124125s
+[worker 0] blocks=1320 txs=264000000000 elapsed=149.878500s last=0.124022s
+[worker 0] blocks=1380 txs=276000000000 elapsed=156.703941s last=0.131144s
+[worker 0] blocks=1440 txs=288000000000 elapsed=163.462217s last=0.119588s
+[worker 0] blocks=1500 txs=300000000000 elapsed=170.006401s last=0.118888s
+[worker 0] blocks=1560 txs=312000000000 elapsed=176.765910s last=0.124156s
+[worker 0] blocks=1620 txs=324000000000 elapsed=183.543521s last=0.123839s
+[worker 0] blocks=1680 txs=336000000000 elapsed=190.390921s last=0.124881s
+[worker 0] blocks=1740 txs=348000000000 elapsed=197.241529s last=0.123420s
+[worker 0] blocks=1800 txs=360000000000 elapsed=204.053521s last=0.124476s
+[worker 0] blocks=1860 txs=372000000000 elapsed=210.903516s last=0.124838s
+[worker 0] blocks=1920 txs=384000000000 elapsed=217.708842s last=0.125185s
+[worker 0] blocks=1980 txs=396000000000 elapsed=224.579236s last=0.126218s
+[worker 0] blocks=2040 txs=408000000000 elapsed=231.479395s last=0.123551s
+[worker 0] blocks=2100 txs=420000000000 elapsed=238.360139s last=0.126629s
+[worker 0] blocks=2160 txs=432000000000 elapsed=245.248927s last=0.120490s
+[worker 0] blocks=2220 txs=444000000000 elapsed=252.113223s last=0.124344s
+[worker 0] blocks=2280 txs=456000000000 elapsed=258.890587s last=0.122455s
+[worker 0] blocks=2340 txs=468000000000 elapsed=265.732738s last=0.130898s
+[worker 0] blocks=2400 txs=480000000000 elapsed=272.419652s last=0.123324s
+[worker 0] blocks=2460 txs=492000000000 elapsed=279.193515s last=0.123679s
+[worker 0] blocks=2520 txs=504000000000 elapsed=285.969359s last=0.122798s
+[worker 0] blocks=2580 txs=516000000000 elapsed=292.710392s last=0.122481s
+[worker 0] blocks=2640 txs=528000000000 elapsed=299.586741s last=0.125861s
+
+=== STATS (go-stress) ===
+elapsed_sec       : 300.039175
+txs_committed     : 528800000000
+blocks_mined      : 2644
+tx_per_second     : 1762436519.83
+blocks_per_second : 8.81
+avg_txs_per_block : 200000000.00
+p50               : 0.111441s
+p90               : 0.123778s
+p99               : 0.129160s

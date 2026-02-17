@@ -1,0 +1,13 @@
+[go-stress] rpc=msgpack+http://127.0.0.1:8650 method=miner_mineRangeSigned sign=true sig_scheme=ed25519 workers=1 batch_size=200000000 soak_tps=10000000000 duration=5m0s
+[go-stress] mineRange opts: mode=direct root_mode=range assume_new=true chain_id=1337
+[worker 0] error: Post "http://127.0.0.1:8650": dial tcp 127.0.0.1:8650: connect: connection refused
+
+=== STATS (go-stress) ===
+elapsed_sec       : 0.002263
+txs_committed     : 0
+blocks_mined      : 0
+tx_per_second     : 0.00
+blocks_per_second : 0.00
+p50               : 0.000000s
+p90               : 0.000000s
+p99               : 0.000000s
