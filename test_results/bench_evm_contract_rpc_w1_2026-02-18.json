@@ -1,0 +1,16 @@
+{
+  "engine": "evm",
+  "workers": 1,
+  "duration_sec": 60,
+  "rpc": "http://127.0.0.1:8545",
+  "calls_ok": 1859,
+  "calls_err": 151167,
+  "calls_per_sec": 30.98314526047866,
+  "elapsed_sec": 60.000364209998224,
+  "p50_ms": 0.9457929991185665,
+  "p90_ms": 1.0381020038039424,
+  "p99_ms": 1.1927810046472587,
+  "addresses": {
+    "evm": "ctr:6e340b9cffb37a989ca544e6bb780a2c78901d3f"
+  }
+}

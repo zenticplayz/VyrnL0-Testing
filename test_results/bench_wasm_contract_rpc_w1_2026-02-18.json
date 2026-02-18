@@ -1,0 +1,19 @@
+{
+  "engine": "wasm",
+  "workers": 1,
+  "duration_sec": 60,
+  "rpc": "http://127.0.0.1:8545",
+  "calls_ok": 0,
+  "calls_err": 58074,
+  "calls_per_sec": 0.0,
+  "elapsed_sec": 60.00076324800466,
+  "p50_ms": 0.0,
+  "p90_ms": 0.0,
+  "p99_ms": 0.0,
+  "addresses": {
+    "wasm": "ctr:b0dd303a2c18155e91e123fc3c3812d112ebd1b9"
+  },
+  "error_reasons": {
+    "WASM_EXEC_ERROR": 58074
+  }
+}
